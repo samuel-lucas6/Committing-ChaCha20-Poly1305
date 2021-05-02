@@ -33,12 +33,5 @@ namespace CommittingChaCha20Poly1305
             Array.Copy(ciphertext, ciphertext.Length - tag.Length, tag, destinationIndex: 0, tag.Length);
             return tag;
         }
-
-        internal static byte[] Remove(byte[] ciphertextWithTag)
-        {
-            byte[] ciphertext = new byte[ciphertextWithTag.Length - Constants.TagLength];
-            Array.Copy(ciphertextWithTag, ciphertext, ciphertext.Length);
-            return ciphertext;
-        }
     }
 }
