@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Samuel Lucas</Authors>
+    <Description>A committing AEAD implementation.</Description>
+    <Copyright>Copyright (c) 2021 Samuel Lucas</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/samuel-lucas6/CommittingChaCha20-Poly1305</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/samuel-lucas6/CommittingChaCha20-Poly1305</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sodium.Core" Version="1.2.3" />
+  </ItemGroup>
+
+</Project>
