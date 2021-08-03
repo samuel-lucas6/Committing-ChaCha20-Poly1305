@@ -1,4 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/samuel-lucas6/Committing-ChaCha20-Poly1305/blob/main/LICENSE)
+[![CodeQL](https://github.com/samuel-lucas6/Committing-ChaCha20-Poly1305/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/samuel-lucas6/Committing-ChaCha20-Poly1305/actions)
 
 # Committing-ChaCha20-Poly1305
 Several committing ChaCha20-Poly1305 implementations made using [libsodium](https://doc.libsodium.org/). There are examples for both [ChaCha20](https://doc.libsodium.org/advanced/stream_ciphers/chacha20) and [XChaCha20](https://doc.libsodium.org/advanced/stream_ciphers/xchacha20).
